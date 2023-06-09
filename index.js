@@ -40,10 +40,10 @@ function showMovies(data) {
         main.appendChild(movieEl);
     })
 }
-function getColor(vote) {
-    if(vote>= 8){
+function getColor(rating) {
+    if(rating>= 8){
         return 'green'
-    }else if(vote >= 5){
+    }else if(rating >= 6){
         return "orange"
     }else{
         return 'red'
